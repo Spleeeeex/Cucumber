@@ -15,7 +15,6 @@ import static io.cucumber.junit.platform.engine.Constants.*;
                 "usage:target/cucumber-report/cucumber-usage.json," +
                 "junit:target/cucumber-report/cucumber-results.xml")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "steps")
-@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@triangle")
 
 public class RunnerTest {
 }
